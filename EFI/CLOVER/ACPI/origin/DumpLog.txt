@@ -1,0 +1,170 @@
+7:338  4:907  Found BIOS RSDP at FCCB0
+7:338  0:000  Printing ACPI tables from RSDP FCCB0 ...
+7:338  0:000   FCCB0: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:338  0:000    (Xsdt: B82B20A8, Rsdt: B82B2028)
+7:338  0:000    B82B20A8: 'XSDT', 'A M I', Rev: 1, Len: 196
+7:338  0:000    B82B2028: 'RSDT', 'A M I', Rev: 1, Len: 116
+7:338  0:000    Tables in Xsdt: 20
+7:338  0:000    0. B82DADE0: 'FACP', 'A M I', Rev: 6, Len: 276
+7:338  0:000        (Dsdt: B82B2200, Facs: C7251C40, XDsdt: B82B2200, XFacs: 0)
+7:338  0:000        B82B2200: 'DSDT', 'A M I', Rev: 2, Len: 166877
+7:339  0:001        C7251C40: 'FACS', Ver: 2, Len: 64
+7:339  0:000    1. B82DAEF8: 'APIC', 'A M I', Rev: 3, Len: 188
+7:339  0:000    2. B82DAFB8: 'FPDT', 'A M I', Rev: 1, Len: 68
+7:339  0:000    3. B82E6710: 'BGRT', 'A M I', Rev: 1, Len: 56
+7:339  0:000    4. B82DB058: 'MCFG', 'A M I', Rev: 1, Len: 60
+7:339  0:000    5. B82DB098: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+7:339  0:000    6. B82DB428: 'FIDT', 'A M I', Rev: 1, Len: 156
+7:339  0:000    7. B82DB4C8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12353
+7:339  0:000    8. B82DE510: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+7:339  0:000    9. B82E0A58: 'HPET', 'KBL', Rev: 1, Len: 56
+7:339  0:000    10. B82E0A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+7:339  0:000    11. B82E18D0: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2841
+7:339  0:000    12. B82E23F0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+7:339  0:000    13. B82E2438: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+7:339  0:000    14. B82E3318: 'LPIT', 'KBL', Rev: 1, Len: 148
+7:339  0:000    15. B82E33B0: 'WSMT', 'KBL', Rev: 1, Len: 40
+7:339  0:000    16. B82E33D8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+7:339  0:000    17. B82E3678: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+7:339  0:000    18. B82E6680: 'DBGP', '', Rev: 1, Len: 52
+7:339  0:000    19. B82E66B8: 'DBG2', '', Rev: 0, Len: 84
+7:339  0:000    Tables in Rsdt: 20
+7:339  0:000    0. B82B2178: 'FACP', 'A M I', Rev: 2, Len: 132
+7:339  0:000        (Dsdt: B82B2200, Facs: C7251C00)
+7:339  0:000        B82B2200: 'DSDT', 'A M I', Rev: 2, Len: 166877
+7:341  0:001        C7251C00: 'FACS', Ver: 0, Len: 64
+7:341  0:000    1. B82DAEF8: 'APIC', 'A M I', Rev: 3, Len: 188
+7:341  0:000    2. B82DAFB8: 'FPDT', 'A M I', Rev: 1, Len: 68
+7:341  0:000    3. B82E6710: 'BGRT', 'A M I', Rev: 1, Len: 56
+7:341  0:000    4. B82DB058: 'MCFG', 'A M I', Rev: 1, Len: 60
+7:341  0:000    5. B82DB098: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+7:341  0:000    6. B82DB428: 'FIDT', 'A M I', Rev: 1, Len: 156
+7:341  0:000    7. B82DB4C8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12353
+7:341  0:000    8. B82DE510: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+7:341  0:000    9. B82E0A58: 'HPET', 'KBL', Rev: 1, Len: 56
+7:341  0:000    10. B82E0A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+7:341  0:000    11. B82E18D0: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2841
+7:341  0:000    12. B82E23F0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+7:341  0:000    13. B82E2438: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+7:341  0:000    14. B82E3318: 'LPIT', 'KBL', Rev: 1, Len: 148
+7:341  0:000    15. B82E33B0: 'WSMT', 'KBL', Rev: 1, Len: 40
+7:341  0:000    16. B82E33D8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+7:341  0:000    17. B82E3678: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+7:341  0:000    18. B82E6680: 'DBGP', '', Rev: 1, Len: 52
+7:341  0:000    19. B82E66B8: 'DBG2', '', Rev: 0, Len: 84
+7:341  0:000  Found UEFI Acpi 2.0 RSDP at B82B2000
+7:341  0:000  Saving ACPI tables from RSDP B82B2000 to EFI\CLOVER\ACPI\origin ...
+7:341  0:000   B82B2000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+7:378  0:037    (Xsdt: B82B20A8, Rsdt: B82B2028)
+7:378  0:000    B82B20A8: 'XSDT', 'A M I', Rev: 1, Len: 196 -> XSDT.aml
+7:405  0:026    B82B2028: 'RSDT', 'A M I', Rev: 1, Len: 116 -> RSDT.aml
+7:437  0:032    Tables in Xsdt: 20
+7:437  0:000    0. B82DADE0: 'FACP', 'A M I', Rev: 6, Len: 276 -> FACP.aml
+7:467  0:029        (Dsdt: B82B2200, Facs: C7251C40, XDsdt: B82B2200, XFacs: 0)
+7:467  0:000        B82B2200: 'DSDT', 'A M I', Rev: 2, Len: 166877 -> DSDT.aml
+7:501  0:034        C7251C40: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+7:531  0:030    1. B82DAEF8: 'APIC', 'A M I', Rev: 3, Len: 188 -> APIC.aml
+7:561  0:029    2. B82DAFB8: 'FPDT', 'A M I', Rev: 1, Len: 68 -> FPDT.aml
+7:587  0:026    3. B82E6710: 'BGRT', 'A M I', Rev: 1, Len: 56 -> BGRT.aml
+7:617  0:029    4. B82DB058: 'MCFG', 'A M I', Rev: 1, Len: 60 -> MCFG.aml
+7:644  0:026    5. B82DB098: 'SSDT', 'SataTabl', Rev: 1, Len: 912 -> SSDT-0-SataTabl.aml
+7:671  0:027    6. B82DB428: 'FIDT', 'A M I', Rev: 1, Len: 156 -> FIDT.aml
+7:698  0:026    7. B82DB4C8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12353 -> SSDT-1-SaSsdt.aml
+7:730  0:031    8. B82DE510: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540 -> SSDT-2-PegSsdt.aml
+7:758  0:028    9. B82E0A58: 'HPET', 'KBL', Rev: 1, Len: 56 -> HPET.aml
+7:787  0:028    10. B82E0A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643 -> SSDT-3-Ther_Rvp.aml
+7:815  0:027    11. B82E18D0: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2841 -> SSDT-4-xh_rvp08.aml
+7:843  0:028    12. B82E23F0: 'UEFI', 'EDK2', Rev: 1, Len: 66 -> UEFI.aml
+7:872  0:028    13. B82E2438: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806 -> SSDT-5-CpuSsdt.aml (Found hidden SSDT 7 pcs)
+7:904  0:032        * C6A00398: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 2079  53 53 44 54 1F 08 00 00 02 21 50 6D 52 65 66 00 Internal length = 2079 -> SSDT-x5_0-Cpu0Ist.aml
+7:932  0:027        * C59E3018: 'SSDT', 'ApIst', Rev: 2, Len: 1628  53 53 44 54 5C 06 00 00 02 AF 50 6D 52 65 66 00 Internal length = 1628 -> SSDT-x5_1-ApIst.aml
+7:959  0:027        * C59E3898: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 AF 50 6D 52 65 66 00 Internal length = 1023 -> SSDT-x5_2-Cpu0Cst.aml
+7:987  0:027        * C59E3DD8: 'SSDT', 'ApCst', Rev: 2, Len: 394  53 53 44 54 8A 01 00 00 02 39 50 6D 52 65 66 00 Internal length = 394 -> SSDT-x5_3-ApCst.aml
+8:015  0:028        * C30CCDD8: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 277  53 53 44 54 15 01 00 00 02 AE 50 6D 52 65 66 00 Internal length = 277 -> SSDT-x5_4-Cpu0Hwp.aml
+8:043  0:027        * C30E9218: 'SSDT', 'ApHwp', Rev: 2, Len: 407  53 53 44 54 97 01 00 00 02 F1 50 6D 52 65 66 00 Internal length = 407 -> SSDT-x5_5-ApHwp.aml
+8:074  0:031        * C30CBDD8: 'SSDT', 'HwpLvt', Rev: 2, Len: 420  53 53 44 54 A4 01 00 00 02 3C 50 6D 52 65 66 00 Internal length = 420 -> SSDT-x5_6-HwpLvt.aml
+8:102  0:027  
+8:102  0:000    14. B82E3318: 'LPIT', 'KBL', Rev: 1, Len: 148 -> LPIT.aml
+8:130  0:027    15. B82E33B0: 'WSMT', 'KBL', Rev: 1, Len: 40 -> WSMT.aml
+8:157  0:027    16. B82E33D8: 'SSDT', 'sensrhub', Rev: 2, Len: 671 -> SSDT-6-sensrhub.aml
+8:185  0:027    17. B82E3678: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290 -> SSDT-7-PtidDevc.aml
+8:212  0:026    18. B82E6680: 'DBGP', '', Rev: 1, Len: 52 -> DBGP.aml
+8:240  0:027    19. B82E66B8: 'DBG2', '', Rev: 0, Len: 84 -> DBG2.aml
+8:267  0:027    Tables in Rsdt: 20
+8:267  0:000    0. B82B2178: 'FACP', 'A M I', Rev: 2, Len: 132 -> RSDT-FACP.aml
+8:298  0:031        (Dsdt: B82B2200, Facs: C7251C00)
+8:298  0:000        B82B2200: 'DSDT', 'A M I', Rev: 2, Len: 166877
+8:300  0:001        C7251C00: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+8:328  0:028    1. B82DAEF8: 'APIC', 'A M I', Rev: 3, Len: 188
+8:328  0:000    2. B82DAFB8: 'FPDT', 'A M I', Rev: 1, Len: 68
+8:328  0:000    3. B82E6710: 'BGRT', 'A M I', Rev: 1, Len: 56
+8:328  0:000    4. B82DB058: 'MCFG', 'A M I', Rev: 1, Len: 60
+8:328  0:000    5. B82DB098: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+8:328  0:000    6. B82DB428: 'FIDT', 'A M I', Rev: 1, Len: 156
+8:328  0:000    7. B82DB4C8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12353
+8:328  0:000    8. B82DE510: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+8:328  0:000    9. B82E0A58: 'HPET', 'KBL', Rev: 1, Len: 56
+8:328  0:000    10. B82E0A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+8:328  0:000    11. B82E18D0: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2841
+8:328  0:000    12. B82E23F0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+8:328  0:000    13. B82E2438: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+8:328  0:000    14. B82E3318: 'LPIT', 'KBL', Rev: 1, Len: 148
+8:328  0:000    15. B82E33B0: 'WSMT', 'KBL', Rev: 1, Len: 40
+8:328  0:000    16. B82E33D8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+8:328  0:000    17. B82E3678: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+8:328  0:000    18. B82E6680: 'DBGP', '', Rev: 1, Len: 52
+8:328  0:000    19. B82E66B8: 'DBG2', '', Rev: 0, Len: 84
+8:328  0:000  Found UEFI Acpi 1.0 RSDP at B82B2000
+8:328  0:000  Printing ACPI tables from RSDP B82B2000 ...
+8:328  0:000   B82B2000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+8:328  0:000    (Xsdt: B82B20A8, Rsdt: B82B2028)
+8:328  0:000    B82B20A8: 'XSDT', 'A M I', Rev: 1, Len: 196
+8:328  0:000    B82B2028: 'RSDT', 'A M I', Rev: 1, Len: 116
+8:328  0:000    Tables in Xsdt: 20
+8:328  0:000    0. B82DADE0: 'FACP', 'A M I', Rev: 6, Len: 276
+8:328  0:000        (Dsdt: B82B2200, Facs: C7251C40, XDsdt: B82B2200, XFacs: 0)
+8:328  0:000        B82B2200: 'DSDT', 'A M I', Rev: 2, Len: 166877
+8:330  0:001        C7251C40: 'FACS', Ver: 2, Len: 64
+8:330  0:000    1. B82DAEF8: 'APIC', 'A M I', Rev: 3, Len: 188
+8:330  0:000    2. B82DAFB8: 'FPDT', 'A M I', Rev: 1, Len: 68
+8:330  0:000    3. B82E6710: 'BGRT', 'A M I', Rev: 1, Len: 56
+8:330  0:000    4. B82DB058: 'MCFG', 'A M I', Rev: 1, Len: 60
+8:330  0:000    5. B82DB098: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+8:330  0:000    6. B82DB428: 'FIDT', 'A M I', Rev: 1, Len: 156
+8:330  0:000    7. B82DB4C8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12353
+8:330  0:000    8. B82DE510: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+8:330  0:000    9. B82E0A58: 'HPET', 'KBL', Rev: 1, Len: 56
+8:330  0:000    10. B82E0A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+8:330  0:000    11. B82E18D0: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2841
+8:330  0:000    12. B82E23F0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+8:330  0:000    13. B82E2438: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+8:330  0:000    14. B82E3318: 'LPIT', 'KBL', Rev: 1, Len: 148
+8:330  0:000    15. B82E33B0: 'WSMT', 'KBL', Rev: 1, Len: 40
+8:330  0:000    16. B82E33D8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+8:330  0:000    17. B82E3678: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+8:330  0:000    18. B82E6680: 'DBGP', '', Rev: 1, Len: 52
+8:330  0:000    19. B82E66B8: 'DBG2', '', Rev: 0, Len: 84
+8:330  0:000    Tables in Rsdt: 20
+8:330  0:000    0. B82B2178: 'FACP', 'A M I', Rev: 2, Len: 132
+8:330  0:000        (Dsdt: B82B2200, Facs: C7251C00)
+8:330  0:000        B82B2200: 'DSDT', 'A M I', Rev: 2, Len: 166877
+8:332  0:001        C7251C00: 'FACS', Ver: 0, Len: 64
+8:332  0:000    1. B82DAEF8: 'APIC', 'A M I', Rev: 3, Len: 188
+8:332  0:000    2. B82DAFB8: 'FPDT', 'A M I', Rev: 1, Len: 68
+8:332  0:000    3. B82E6710: 'BGRT', 'A M I', Rev: 1, Len: 56
+8:332  0:000    4. B82DB058: 'MCFG', 'A M I', Rev: 1, Len: 60
+8:332  0:000    5. B82DB098: 'SSDT', 'SataTabl', Rev: 1, Len: 912
+8:332  0:000    6. B82DB428: 'FIDT', 'A M I', Rev: 1, Len: 156
+8:332  0:000    7. B82DB4C8: 'SSDT', 'SaSsdt', Rev: 2, Len: 12353
+8:332  0:000    8. B82DE510: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+8:332  0:000    9. B82E0A58: 'HPET', 'KBL', Rev: 1, Len: 56
+8:332  0:000    10. B82E0A90: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+8:332  0:000    11. B82E18D0: 'SSDT', 'xh_rvp08', Rev: 2, Len: 2841
+8:332  0:000    12. B82E23F0: 'UEFI', 'EDK2', Rev: 1, Len: 66
+8:332  0:000    13. B82E2438: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+8:332  0:000    14. B82E3318: 'LPIT', 'KBL', Rev: 1, Len: 148
+8:332  0:000    15. B82E33B0: 'WSMT', 'KBL', Rev: 1, Len: 40
+8:332  0:000    16. B82E33D8: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+8:332  0:000    17. B82E3678: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+8:332  0:000    18. B82E6680: 'DBGP', '', Rev: 1, Len: 52
+8:332  0:000    19. B82E66B8: 'DBG2', '', Rev: 0, Len: 84

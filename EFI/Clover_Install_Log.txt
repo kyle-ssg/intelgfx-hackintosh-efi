@@ -1,0 +1,44 @@
+
+Clover EFI installer log - Sun Jun 23 13:39:19 BST 2019
+Installer version: v2.4k r4961 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk2         499.9 GB   disk0s2
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk1
+   1:           Windows Recovery                         575.7 MB   disk1s1
+   2:       Microsoft Basic Data                         499.4 GB   disk1s2
+   3:                        EFI NO NAME                 104.9 MB   disk1s3
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +499.9 GB   disk2
+                                 Physical Store disk0s2
+   1:                APFS Volume OSX                     162.7 GB   disk2s1
+   2:                APFS Volume Preboot                 45.2 MB    disk2s2
+   3:                APFS Volume Recovery                512.4 MB   disk2s3
+   4:                APFS Volume VM                      2.1 GB     disk2s4
+
+Target volume /Volumes/OSX on disk2 is APFS on physical store disk0s2
+======================================================
+Backing up EFI files
+
+Backing up /Volumes/OSX/EFIROOTDIR/EFI folder to /Volumes/OSX/EFI-Backups/r4961/2019-06-23-13h39/EFI
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+Removing drivers64UEFI/VBoxHfs-64.efi driver because HFSPlus driver present
+
+Theme 'metal' (defined in config.plist) not found !
+Using default theme 'BGM'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
